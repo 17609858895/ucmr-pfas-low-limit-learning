@@ -1,0 +1,58 @@
+{
+  "inputs": [
+    {
+      "name": "combined_ucmr_data.csv",
+      "bytes": 700290276,
+      "sha256": "724302a255fcfedc5d6e096f06a09d9b40d0db5809959d2a7dfc7984272f1bae"
+    },
+    {
+      "name": "SDWA_PUB_WATER_SYSTEMS.csv",
+      "bytes": 123439961,
+      "sha256": "fbafa8fb6ab881a93644ef7b4261d45556cf417c8387834e83b5aad7c0a186fd"
+    }
+  ],
+  "ucmr5_archive": {
+    "retrieved_on": "2026-10-15",
+    "source_url": "https://www.epa.gov/system/files/other-files/2023-08/ucmr5-occurrence-data.zip",
+    "downloaded_via": "Chrome official EPA link",
+    "archive_bytes": 13530599,
+    "sha256": "ff8a6bf937823cdd75295d02f662966e8473eececb47190c406b9de53b2b6389",
+    "members": [
+      {
+        "name": "UCMR5_AddtlDataElem.txt",
+        "bytes": 22160541,
+        "crc32": "7f4f1c69"
+      },
+      {
+        "name": "UCMR5_All.txt",
+        "bytes": 319281649,
+        "crc32": "6c0fab62"
+      },
+      {
+        "name": "UCMR5_DataSummary_Jul2026_508.pdf",
+        "bytes": 526036,
+        "crc32": "73ae9bb2"
+      },
+      {
+        "name": "UCMR5_ZIPCodes.txt",
+        "bytes": 534306,
+        "crc32": "44279763"
+      },
+      {
+        "name": "InstructionsforAccessingUCMRResults_Jan2025_508.pdf",
+        "bytes": 357942,
+        "crc32": "2afbf10d"
+      }
+    ],
+    "crc_check": "PASS",
+    "original_kaggle_changed": false
+  },
+  "zcta_archive": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_zcta_national.zip",
+    "bytes": 1013655,
+    "sha256": "75191ab2d3df4b668fb511d2726d97c521d6d1ff555725704a5d9bb3bc2077ce",
+    "meaning": "2023 Census ZCTA representative points matched to UCMR served ZIPs; not intakes, plants or pipe routes."
+  },
+  "sdwis_snapshot": "2026Q3; source file identified by hash above",
+  "historical_merged_csv": "Existing UCMR1-5 mirror; exact public mirror URL not documented in release sources."
+}

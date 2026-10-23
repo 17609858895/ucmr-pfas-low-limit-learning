@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+inputs/
+work/
+outputs/
+*.log
+*.parquet
+*.zip
+*.docx
+*.xlsx
