@@ -74,7 +74,7 @@ Run scripts from the repository root with `python analysis/<filename>`. The scie
 
 ## Which version is represented
 
-The current manuscript and its ten main figures use the original analysis outputs (`e1`–`e6`) retained by the compact figure package, plus the eligible-cohort historical marker associations adopted from the restructuring stage. `source_manifest.json` records the local source-relative provenance and hashes for copied files.
+The current manuscript and its ten main figures use the original analysis outputs (`e1`–`e6`) retained by the compact figure package, plus the eligible-cohort historical marker associations adopted from the restructuring stage. `source_manifest.json` records the local source-relative provenance and hashes for copied files. Its `release_sha256` values refer to tracked repository bytes after Git text normalization; working-copy line endings may differ.
 
 The restructuring stage also contains separate nested train/calibration/test experiments and same-family anchor sensitivities. Those results were not substituted for the current manuscript's reported results and are not included here. In particular, `s17_recalibration.py` estimates each target fold's calibration transform from base-model out-of-fold predictions in the other four folds; this is the procedure described in Supplementary Methods S5, not the separate nested experiment. The empirical prediction sets inherit that retained calibration structure and should be read as retrospective descriptive summaries.
 

@@ -3,252 +3,252 @@
     "source": "01_当前论文_CURE生存ML_20261021/scripts/common_data.py",
     "release": "analysis/common_data.py",
     "original_sha256": "cdff1e9c701175ba1ffcce7741faba7b6d32770aa5722918c71f1c4ee8f40a90",
-    "release_sha256": "6b9242de1207ad6e1dd3c6f7a9a5cb45b9bbeb94690005b9875d2d5b04f6243f",
+    "release_sha256": "c6e3feed8921f3cdccbf9eb852781be9234543c8bff89d663066b490d6657ed1",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/censored_models.py",
     "release": "analysis/censored_models.py",
     "original_sha256": "a9e671b587ef75db5e3eb08ab9b9c0900610393d832698a957f2872e8fd683e9",
-    "release_sha256": "cdea6c1cb5c6652b32fc11585733a6a798538f48d38a41180b59fe9e757123bd",
+    "release_sha256": "8893f747d1571cd53d9da81d31ce909d0fd906687a3cc5616048e69d8d84bf53",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s00_profile.py",
     "release": "analysis/s00_profile.py",
     "original_sha256": "ab28c41f5ff792ff54a9f660a43aceb82842fd8f6ee3dfcb655133184a4875b6",
-    "release_sha256": "720199ecc3fdb2a9a34dbd38f29b1d131ffc1182187108bb9aa8f889283c4220",
+    "release_sha256": "c8ba343b235b72a8fa161d2f2e1daef986aa4445ad4ba11a27347f804df5ad1f",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s01_support.py",
     "release": "analysis/s01_support.py",
     "original_sha256": "ec8612aa5c51b7d0974b4f118d827c5d00f985414b91c5366fb683af4d621815",
-    "release_sha256": "0e28cbe2d65b904b62160303f103453154cef477a64f99f8f9fadaf87db9a037",
+    "release_sha256": "e3f6cf137ad0e8b5734bbb55dc2a4b461cbe4ca202696f445682eb2226d70f8d",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s02_build_features.py",
     "release": "analysis/s02_build_features.py",
     "original_sha256": "9e4b2fcc4838bdbaf1d34fec867f95e1c97c45564555dbcc7f8ea62080a41b11",
-    "release_sha256": "b077f3c0b521a836613a1e29866855b6cf1b0fc347c4d28d24abff7d3008444b",
+    "release_sha256": "c3ae8d3085565c82873fd849758feebc7daf4c27b8f44effaae029624a04ed50",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s05_causal_dml.py",
     "release": "analysis/s05_causal_dml.py",
     "original_sha256": "bf89cf1e9a7cf95caf8559733089714d90e47da0ab89ce35fad4abd130a1caf2",
-    "release_sha256": "02f3236efcb35e7c3a950b4fb1562494da0a63057c8787f4b9b20191d68bcca3",
+    "release_sha256": "a74c6cb059fdbda0d588a34020b054c3c74e38d880ca48fc0fef1a71746e9e22",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s07_causal_robust.py",
     "release": "analysis/s07_causal_robust.py",
     "original_sha256": "10b88263558c8e2ed5db046469459f8f1a98a7fb56809a165c55d06ff40eb67f",
-    "release_sha256": "b3b0c65fb0a49e109a08b3a5da83e63e4800ae230e9f23845fcea63c3e7f06e1",
+    "release_sha256": "10b88263558c8e2ed5db046469459f8f1a98a7fb56809a165c55d06ff40eb67f",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s08_within_pws.py",
     "release": "analysis/s08_within_pws.py",
     "original_sha256": "f678d8672ae85a4c7aa33e4c62709b3c912b5be68b88ec5ecf63c8c5321b8ac6",
-    "release_sha256": "2590969ed7c666434c0ea277eec26e41700c2281b29dd31f893ed47e4b1c4f93",
+    "release_sha256": "255458d4d7217b1be0afb84713949b1af6d13a9fef7f42629242af829320ca6e",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s10_common_benchmark.py",
     "release": "analysis/s10_common_benchmark.py",
     "original_sha256": "27c039da9a3011dd152b25f1e47ef674801b0cec413052963f553d1f1ce3de77",
-    "release_sha256": "d0b29fe3fd2a2ddb45ebee281af72dae10d349c208f6a7683d9cf05c5b4ea408",
+    "release_sha256": "27c039da9a3011dd152b25f1e47ef674801b0cec413052963f553d1f1ce3de77",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s10b_monotonicity.py",
     "release": "analysis/s10b_monotonicity.py",
     "original_sha256": "e41da9288b2c36893451c2182113c70165bcb53e92f314af9336e87cb1d38c6f",
-    "release_sha256": "d76adaf8e9d27ec63db7e2a92d381bf7cc71d3a0d19ee363fcfb5ab61c30f7ee",
+    "release_sha256": "e41da9288b2c36893451c2182113c70165bcb53e92f314af9336e87cb1d38c6f",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s11_anchor_stress.py",
     "release": "analysis/s11_anchor_stress.py",
     "original_sha256": "25e93941f822fec5b5cb30fe9a4920cd6cb25c307e3dd650b000a99702fb4027",
-    "release_sha256": "14bbb7c6a1e30ebcaeaba4f3019737383f679e3469bafc0b0edb166fa88b4456",
+    "release_sha256": "25e93941f822fec5b5cb30fe9a4920cd6cb25c307e3dd650b000a99702fb4027",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s12_spatial_cv.py",
     "release": "analysis/s12_spatial_cv.py",
     "original_sha256": "c34d63ea35ced224602844b626330a4ad0c9b96cc6a358314e482404d2b00d4f",
-    "release_sha256": "c34d63ea35ced224602844b626330a4ad0c9b96cc6a358314e482404d2b00d4f",
+    "release_sha256": "bf9576b25ef7eb5c6f3b9a8a3b3fbab94a2d5f81b6ada0764445dc424e69ea3f",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s13_conformal.py",
     "release": "analysis/s13_conformal.py",
     "original_sha256": "cd2cc01812be39f0628717d8fd78a3baa1d2f4df17ee9c211a29c87aa5348d28",
-    "release_sha256": "cd2cc01812be39f0628717d8fd78a3baa1d2f4df17ee9c211a29c87aa5348d28",
+    "release_sha256": "5e673c7e3a398686c6e0143b287f592878d9e5aa78baa27ba95901eeb460f91c",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s14_causal_process.py",
     "release": "analysis/s14_causal_process.py",
     "original_sha256": "206cca42b6005f32d8790573485d8c7b205513fb98100faae3ea7da0ac2737e9",
-    "release_sha256": "64bc42c57d1624beb19fc0941f0676bf4dd41be6cd1412eb906fdb196d57792e",
+    "release_sha256": "206cca42b6005f32d8790573485d8c7b205513fb98100faae3ea7da0ac2737e9",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s15_shap_heads.py",
     "release": "analysis/s15_shap_heads.py",
     "original_sha256": "67f0895294c45d2588213617eda98ea6c710a104ebe29b17c06d0d651e831507",
-    "release_sha256": "f4c02618412d828e3f4d5f41085daf603a509694231a189a0396657f700e4f5a",
+    "release_sha256": "67f0895294c45d2588213617eda98ea6c710a104ebe29b17c06d0d651e831507",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "01_当前论文_CURE生存ML_20261021/scripts/s17_recalibration.py",
     "release": "analysis/s17_recalibration.py",
     "original_sha256": "9135d909918b20876651cde60433332824ab061bfcc13c2ac3769bb0d760db89",
-    "release_sha256": "8f15d9bb626fa4ca91dd3945a19ea56235c167a9f5c724a47883c06abe5846bc",
+    "release_sha256": "9135d909918b20876651cde60433332824ab061bfcc13c2ac3769bb0d760db89",
     "changes": "Portable input/work paths; selected docstrings align with manuscript interpretation. No analysis equations, parameters, splits or seeds changed."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e1_metrics.csv",
     "release": "retained_results/e1_metrics.csv",
     "original_sha256": "18ece2736ea61ce9f07b5c689f52209caca33cf1a07347b891999f062ea2eef6",
-    "release_sha256": "18ece2736ea61ce9f07b5c689f52209caca33cf1a07347b891999f062ea2eef6",
+    "release_sha256": "f394bf5150182f2778c00d9e4a2148a2992bee37118c5cbd29c54970bbb28134",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e1_monotonicity.csv",
     "release": "retained_results/e1_monotonicity.csv",
     "original_sha256": "a7f68ea301636ee320d603ac80a5beaaf061fe35d8c82298617a0ce0f0952cc2",
-    "release_sha256": "a7f68ea301636ee320d603ac80a5beaaf061fe35d8c82298617a0ce0f0952cc2",
+    "release_sha256": "40d1e25036138a202be637c909940a2d9d700047ea514c6cb8271418381eb756",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e1_stack_weights.json",
     "release": "retained_results/e1_stack_weights.json",
     "original_sha256": "cb573ae9579d972afb72128a7d0aba3c9b0e0e481df78fa5beb9c3eec932b098",
-    "release_sha256": "cb573ae9579d972afb72128a7d0aba3c9b0e0e481df78fa5beb9c3eec932b098",
+    "release_sha256": "344a6b61389b7e29584785a10d7907c1229cf931429083f75b39470d2939d049",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e2_metrics.csv",
     "release": "retained_results/e2_metrics.csv",
     "original_sha256": "399aaf798a892c45ced86d70dee24842923ef5d222dadeb7b917c16ea728467b",
-    "release_sha256": "399aaf798a892c45ced86d70dee24842923ef5d222dadeb7b917c16ea728467b",
+    "release_sha256": "16105af265a84d5d3bbbd789a5cde53ef2c64efc90e04b24ea9e859b356a68ae",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e3_overall.csv",
     "release": "retained_results/e3_overall.csv",
     "original_sha256": "613a182e3e0393730a1db7b88dbead80a34dffeef9b3a49b6b0e72c8b77c6d6e",
-    "release_sha256": "613a182e3e0393730a1db7b88dbead80a34dffeef9b3a49b6b0e72c8b77c6d6e",
+    "release_sha256": "eebc12cb9d52e2e898a71517c4de43581faf85328c6558f400b8c6f9dd4da9c1",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e3_overall_nostate.csv",
     "release": "retained_results/e3_overall_nostate.csv",
     "original_sha256": "879ae18008652ad2fcf687a8be156e92ea8366e1d06bb670920203ba38caccae",
-    "release_sha256": "879ae18008652ad2fcf687a8be156e92ea8366e1d06bb670920203ba38caccae",
+    "release_sha256": "ab7415a6c4a87118679163b955ca82eaaf4299fd8f061e20145dcf0dd611e80f",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e3_by_state_nostate.csv",
     "release": "retained_results/e3_by_state_nostate.csv",
     "original_sha256": "c555b0b28013edbdbca1038b0a5b47613b6bf9cb68cf42c7528ceb1c8546ffa2",
-    "release_sha256": "c555b0b28013edbdbca1038b0a5b47613b6bf9cb68cf42c7528ceb1c8546ffa2",
+    "release_sha256": "f9fdec705e55c81367952a2ffdd4e1e765e41c5395d2e8696e2d65878a827929",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e4_rank_corr.json",
     "release": "retained_results/e4_rank_corr.json",
     "original_sha256": "2d58a10575ec29bc48ffa5a4ad65716bc1fb0a2e114c13fef64c32bca4f9f451",
-    "release_sha256": "2d58a10575ec29bc48ffa5a4ad65716bc1fb0a2e114c13fef64c32bca4f9f451",
+    "release_sha256": "30ab7970470a88f8cec3d9935b51f6ef6e11c8acf70f0ecc4054420b190bb606",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e4_shap_features.csv",
     "release": "retained_results/e4_shap_features.csv",
     "original_sha256": "d935e15947518a3ddb711a604bbb08601fec6ec8d60fd58297e188f2b0c65f99",
-    "release_sha256": "d935e15947518a3ddb711a604bbb08601fec6ec8d60fd58297e188f2b0c65f99",
+    "release_sha256": "59230f7c29a1ca234047d394b6db8fc6b3dfe4fd2ecd04fcaa1882d9bce6d6f7",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e4_shap_groups.csv",
     "release": "retained_results/e4_shap_groups.csv",
     "original_sha256": "63a4ffb5b0d6502c11687cfa828b1186f5a6e114a093e085279fd479004261d5",
-    "release_sha256": "63a4ffb5b0d6502c11687cfa828b1186f5a6e114a093e085279fd479004261d5",
+    "release_sha256": "7babb93e8e3f78093997425fd3a77b8c96846e0b7f6d615e921cd3b5561706b5",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e5_summary.csv",
     "release": "retained_results/e5_summary.csv",
     "original_sha256": "a68829b6faeb80c9b2eb72204bf37d114e606d0e437e4f01258d1ff6c23d9dd2",
-    "release_sha256": "a68829b6faeb80c9b2eb72204bf37d114e606d0e437e4f01258d1ff6c23d9dd2",
+    "release_sha256": "2791ec6a5e9da2e3eccc34c6c6248ff5c62fc9cc1dd9801a513f6dc0ddbdfbcb",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e6_recal_metrics.csv",
     "release": "retained_results/e6_recal_metrics.csv",
     "original_sha256": "bb6b260dfd03f91cd765c205da75d99c6913afc2b2bafa3afa6b87d86532c64f",
-    "release_sha256": "bb6b260dfd03f91cd765c205da75d99c6913afc2b2bafa3afa6b87d86532c64f",
+    "release_sha256": "06f2db3143c9300b378cc67925ce295b30a5e4747b29cb3d6dde42ddb360ab3e",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/e6_recal_params.csv",
     "release": "retained_results/e6_recal_params.csv",
     "original_sha256": "4a8e7cb19b3a5ca981eb1f433a47c421246074227adcbea7778e2b17fa49f338",
-    "release_sha256": "4a8e7cb19b3a5ca981eb1f433a47c421246074227adcbea7778e2b17fa49f338",
+    "release_sha256": "3b5dbac463766cdcb48f6b46c156ce36ff4994c18dbac4765eb8d03c907e7571",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/causal_aipw_treatment.csv",
     "release": "retained_results/causal_aipw_treatment.csv",
     "original_sha256": "74de8eaafa94536b2f85fd19d8c09dac5b1b0cc247a742dafa0b03e5579aadbe",
-    "release_sha256": "74de8eaafa94536b2f85fd19d8c09dac5b1b0cc247a742dafa0b03e5579aadbe",
+    "release_sha256": "66dfc7e3c983d8ecbb51e3d3013d133c70454fc8f16e3821bf8a8eacb56d0c02",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/causal_process_split.csv",
     "release": "retained_results/causal_process_split.csv",
     "original_sha256": "52fe42c1ba3893521da30cd347b41b5fa0f615b9494e5fb4b2695259ea5cd636",
-    "release_sha256": "52fe42c1ba3893521da30cd347b41b5fa0f615b9494e5fb4b2695259ea5cd636",
+    "release_sha256": "2f3fd2bb5e3d749e9b96ce9e3e2ac89354a4c681d3ec632528c58c147566217c",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/causal_robustness.csv",
     "release": "retained_results/causal_robustness.csv",
     "original_sha256": "953c7f6f6eba1dacc3bc38c65fe51a461775e89a76cda3dfcd3687fafb4fdcb5",
-    "release_sha256": "953c7f6f6eba1dacc3bc38c65fe51a461775e89a76cda3dfcd3687fafb4fdcb5",
+    "release_sha256": "33ace1f04377dee8cc111acf86c1a210379efe1a2e719ada2ce13996094e4926",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/results_snapshot/causal_within_pws_FE.csv",
     "release": "retained_results/causal_within_pws_FE.csv",
     "original_sha256": "a8b385367999d53a2021c09ef163958ab640c43d700a78afcbdaeb34af17c16b",
-    "release_sha256": "a8b385367999d53a2021c09ef163958ab640c43d700a78afcbdaeb34af17c16b",
+    "release_sha256": "24c7d34ed7750ed9a0e26fc057bd60116861b15f0e37cfd08ab628c6d83223f9",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "02_论文重构与手稿_20261022/results/legacy_associations.csv",
     "release": "retained_results/legacy_associations.csv",
     "original_sha256": "bd4e480aab5b83f57d6f4349e76acd2efe8b0d00f29605a95e45617f3af94135",
-    "release_sha256": "bd4e480aab5b83f57d6f4349e76acd2efe8b0d00f29605a95e45617f3af94135",
+    "release_sha256": "1a889e9177bb3a5e1b86b81673838a0b1777138a7f9a3550b34067082b54897f",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/FigS1_data_flow.csv",
     "release": "retained_results/FigS1_data_flow.csv",
     "original_sha256": "0bc1611de6f1953c1ecc9b7f08e9e1231ab3611aeb4806680ba9ff445ad952e4",
-    "release_sha256": "0bc1611de6f1953c1ecc9b7f08e9e1231ab3611aeb4806680ba9ff445ad952e4",
+    "release_sha256": "554f93c852427dc139e0338990f826a9fdafab2a8672ca2685917470c2cda9d0",
     "changes": "Unchanged aggregate snapshot."
   },
   {
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/FigS1_sampling_support.csv",
     "release": "retained_results/FigS1_sampling_support.csv",
     "original_sha256": "763e41205e96b52ad1c14af234fe507efd9f3960cbe8095d9932f3a76054c435",
-    "release_sha256": "763e41205e96b52ad1c14af234fe507efd9f3960cbe8095d9932f3a76054c435",
+    "release_sha256": "dbad656c13e1b71367cf067dbebbeb5dd942b84902e2090e7de0e5e6a038ecc7",
     "changes": "Unchanged aggregate snapshot."
   },
   {
