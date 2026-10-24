@@ -12,7 +12,7 @@ The aggregate checks use only the Python standard library:
 python tools/verify_retained_results.py
 ```
 
-They check the six recalibration ratios; the reported 4 ng/L ROC area, average precision and Brier skill; the 20 ng/L anchor comparison; probability consistency; the dioxane rate ratio; normalized attribution shares; screening proportions; and the two historical cohort sizes. These checks inspect retained aggregate summaries. They do not refit the models or constitute independent validation of the underlying observations.
+They check the six recalibration ratios; the reported 4 ng/L ROC area, average precision and Brier skill; the 20 ng/L anchor comparison, including the same-cohort comparison and recovered-skill fractions; probability consistency; the dioxane rate ratio; normalized attribution shares; screening proportions; and the two historical cohort sizes. These checks inspect retained aggregate summaries. They do not refit the models or constitute independent validation of the underlying observations.
 
 For numerical checks of the concentration-distribution and pooling code:
 
@@ -61,16 +61,17 @@ Run scripts from the repository root with `python analysis/<filename>`. The scie
 | --- | --- | --- |
 | Data and response preparation | `s00_profile.py` → `s01_support.py` → `s02_build_features.py`; loader `common_data.py` | Methods; Supplementary Methods S1–S2; Tables 1 and S1 |
 | Base concentration models | `censored_models.py` | S3–S4; Table S2 |
-| Common-MRL benchmark | `s10_common_benchmark.py` → `s10b_monotonicity.py` | Fig. 3; Tables S3 and S11 |
-| Distributional recalibration | `s17_recalibration.py` | Fig. 4; Tables S4 and S10 |
-| Reporting-limit and low-limit anchor experiment | `s11_anchor_stress.py` | Fig. 5; Table S5 |
-| Geographical evaluation | `s12_spatial_cv.py`; repeat with argument `nostate` | Fig. 4; Table S6 |
-| Two-learner attribution | `s15_shap_heads.py` | Figs. 6–7; Table S7 |
-| Empirical prediction sets | `s13_conformal.py` after recalibration | Fig. 8; Table S8 |
-| Treatment-report comparisons | `s05_causal_dml.py` → `s07_causal_robust.py` → `s08_within_pws.py` → `s14_causal_process.py` | Figs. 9–10; Table S9 |
-| Historical marker associations | `historical_markers.py` after data preparation | Fig. 7; Table S12 |
+| Common-MRL benchmark | `s10_common_benchmark.py` → `s10b_monotonicity.py` | Fig. 3; Tables S3 and S6 |
+| Distributional recalibration | `s17_recalibration.py` | Fig. 4; Tables S4 and S5 |
+| Reporting-limit and low-limit anchor experiment | `s11_anchor_stress.py` → `s18_same_cohort_anchor.py` | Fig. 5; Table 2; Table S7 |
+| Geographical evaluation | `s12_spatial_cv.py`; repeat with argument `nostate` | Fig. 4; Table S8 |
+| Two-learner attribution | `s15_shap_heads.py` | Figs. 6–7; Table S9 |
+| Empirical prediction sets | `s13_conformal.py` after recalibration | Fig. 8; Table S11 |
+| Treatment-report comparisons | `s05_causal_dml.py` → `s07_causal_robust.py` → `s08_within_pws.py` → `s14_causal_process.py` | Figs. 9–10; Table S12 |
+| Historical marker associations | `historical_markers.py` after data preparation | Fig. 7; Table S10 |
+| CURE architecture schematic | `figures/schematic_cure.py` (vector drawing; no data input) | Fig. 3a |
 
-`s12_spatial_cv.py nostate` omits the State and Region categorical predictors. The internal `causal_*`, `ATT` and `ATE` filenames/columns are retained for traceability; in the manuscript these are adjusted observational contrasts between report groups. They do not identify treatment effects. Likewise mixture membership does not establish true PFAS absence, historical chemical associations do not establish shared sources, and the retrospective assessments do not demonstrate prospective deployment performance.
+`s12_spatial_cv.py nostate` omits the State and Region categorical predictors. `s18_same_cohort_anchor.py` re-scores the stored out-of-fold predictions of `s11_anchor_stress.py` without refitting, so that anchored and unanchored scenarios are compared on the same 24,126 nonanchor entry points (manuscript Table 2), and reports the share of the original-reporting skill recovered by anchoring. Supplementary tables are numbered in order of first citation; the table numbers above follow the submitted manuscript. The internal `causal_*`, `ATT` and `ATE` filenames/columns are retained for traceability; in the manuscript these are adjusted observational contrasts between report groups. They do not identify treatment effects. Likewise mixture membership does not establish true PFAS absence, historical chemical associations do not establish shared sources, and the retrospective assessments do not demonstrate prospective deployment performance.
 
 ## Which version is represented
 
@@ -84,7 +85,8 @@ Fig. 2's analyte-specific observed comparison uses 4,435 systems, whereas its jo
 
 ## Contents and preservation
 
-- `analysis/`: 16 adapted original analysis modules and two release helpers.
+- `analysis/`: 17 adapted original analysis modules and two release helpers.
+- `figures/`: code for the Fig. 3a architecture schematic (`python figures/schematic_cure.py` writes it to the work directory).
 - `retained_results/`: small CSV/JSON summaries without PWS identifiers or row-level data.
 - `tools/`: aggregate-number verification and a deterministic numerical smoke check.
 - `data_manifest.json`: source-version records and input hashes; raw inputs are excluded.

@@ -31,6 +31,16 @@ def main():
     anchor = select('e2_metrics.csv', M='20', a='0.1', model='CURE-N', t='4.0')
     assert round(float(no_anchor['BSS']),3)==.060
     assert round(float(anchor['BSS']),3)==.120
+    same = {(r['M'],r['a']):r for r in read('e2_metrics_nonanchor.csv') if r['model']=='CURE-N' and r['t']=='4.0'}
+    assert int(same[('20','0.0')]['n'])==24126
+    assert round(float(same[('20','0.0')]['BSS']),3)==.063 and round(float(same[('20','0.1')]['BSS']),3)==.120
+    assert round(float(same[('40','0.0')]['BSS']),3)==.012 and round(float(same[('40','0.1')]['BSS']),3)==.088
+    rec = {r['M']:r for r in read('e2_anchor_recovery.csv')}
+    for M in ['20','40']:
+        ref,u,a = (float(rec[M][k]) for k in ['BSS_ref','BSS_unanchored','BSS_anchored'])
+        assert math.isclose((a-u)/(ref-u), float(rec[M]['BSS_recovered']), rel_tol=1e-9)
+    assert [round(100*float(rec[M]['BSS_recovered'])) for M in ['20','40']]==[35,36]
+    assert [round(100*float(rec[M]['AP_recovered'])) for M in ['20','40']]==[33,39]
     mono = [r for r in read('e1_monotonicity.csv') if r['model'] in ['CURE-N','STACK']]
     assert len(mono)==6 and all(float(r['frac_inconsistent'])==0 for r in mono)
     marker = select('legacy_associations.csv', analyte='1,4-Dioxane')
@@ -54,7 +64,7 @@ def main():
     assert sum(int(r['n']) for r in joint)==4439
     assert sum(int(r['n'])>=20 for r in joint)==39
     report = {'status':'PASS', 'checks':['six recalibration ratios', '4 ng/L discrimination and Brier skill',
-              '20 ng/L anchor and unanchored Brier skill', 'probability consistency', 'dioxane rate-ratio arithmetic',
+              '20 ng/L anchor and unanchored Brier skill', 'same-cohort anchor comparison and recovered skill', 'probability consistency', 'dioxane rate-ratio arithmetic',
               '78 feature shares', 'co-contaminant group shares', 'prediction-set proportions',
               'distinct historical cohort sizes and 39 reporting areas'],
               'scope':'Aggregate-summary verification; no model refitting and no independent data validation.'}

@@ -260,5 +260,33 @@
     "source": "07_图件紧凑排版与浅色精修_20261023/figure_data/FigS3_observed_temporal.csv",
     "release": "retained_results/historical_joint_by_area.csv",
     "changes": "Aggregated to reporting areas, removing PWS identifiers and row-level data."
+  },
+  {
+    "source": "01_当前论文_CURE生存ML_20261021/scripts/s18_same_cohort_anchor.py",
+    "release": "analysis/s18_same_cohort_anchor.py",
+    "original_sha256": "7002f07070ac5b6f11771114f78c710e79ae11581fc297a38efe6c6b829b2712",
+    "release_sha256": "7002f07070ac5b6f11771114f78c710e79ae11581fc297a38efe6c6b829b2712",
+    "changes": "Copied unchanged; re-scores stored s11 predictions on the nonanchor cohort without refitting."
+  },
+  {
+    "source": "01_当前论文_CURE生存ML_20261021/results/e2_metrics_nonanchor.csv",
+    "release": "retained_results/e2_metrics_nonanchor.csv",
+    "original_sha256": "f92ed4ae1e21de9c12bb7156a860a9b0d754bbb7fb13db4de36ff437aa1eaa66",
+    "release_sha256": "c0bbb07d50adc09523ccffa2191ce9787c9036403a615a27733c8904aefca053",
+    "changes": "Copied unchanged; aggregate metrics without PWS identifiers."
+  },
+  {
+    "source": "01_当前论文_CURE生存ML_20261021/results/e2_anchor_recovery.csv",
+    "release": "retained_results/e2_anchor_recovery.csv",
+    "original_sha256": "00718da4d78bbf7e48ed3253aba943ad21c4d049edb43d703d669e90cf3dc15b",
+    "release_sha256": "eb04cd4d31ca6d168f2f19a811811f205b3e2419e8d167ff296da5d7f38fd6b4",
+    "changes": "Copied unchanged; aggregate recovered-skill fractions."
+  },
+  {
+    "source": "07_图件紧凑排版与浅色精修_20261023/scripts/schematic_cure.py",
+    "release": "figures/schematic_cure.py",
+    "original_sha256": "f663a3a9b2bfe814b3625afb7afe9ca7f7008339d2d1901bf0b9e28b55431360",
+    "release_sha256": "aef24b2995ba9fe6d7412f5b629c07a5d362ace17d2e46ec2403797a91e71792",
+    "changes": "Standalone export block added; drawing code unchanged."
   }
 ]
